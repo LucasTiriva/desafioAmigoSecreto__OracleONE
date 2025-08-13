@@ -56,10 +56,3 @@ function sortearAmigo() {
     li.textContent = nomeSorteado;
     ulResultado.appendChild(li);
 }
-
-function reiniciarJogo() {
-    listaDeAmigos = [];
-    ulAmigos.innerHTML = '';
-    ulResultado.innerHTML = '';
-    input.value = '';
-}
